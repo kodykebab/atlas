@@ -65,7 +65,7 @@ class AtlasSettings(Document):
 		central_jwks_url: DF.Data | None
 		default_metal_machine_image: DF.Autocomplete | None
 		default_metal_machine_size: DF.Autocomplete | None
-		dns_provider: DF.Literal["Route53"]
+		dns_provider: DF.Literal["Route53", "Fake"]
 		http_proxy_package_file: DF.Link | None
 		http_proxy_package_hash: DF.Data | None
 		ipv6_router_package_file: DF.Link | None
