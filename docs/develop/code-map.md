@@ -52,3 +52,5 @@ Tests sit next to the code as `*_test.go`. Host integration tests need a Linux h
 | IPv6 router | [IPv6 router](../networking/ipv6-router.md) | [IPv6 router](../../services/ipv6-router/SPEC.md) | [BPF rules](../../services/ipv6-router/bpf/) |
 
 The [repository map](../../SPEC.md) lists every component and its CI job.
+
+For Docker protocol translation, see the [operator guide](../interfaces/docker-adapter.md), [specification](../../services/docker-adapter/SPEC.md), and [engine package](../../services/docker-adapter/internal/engine/).

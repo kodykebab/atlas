@@ -100,6 +100,7 @@ const handbook: DefaultTheme.SidebarItem[] = [
 			{ text: 'Overview', link: '/docs/interfaces/' },
 			{ text: 'Signing keys and tokens', link: '/docs/interfaces/signing-keys' },
 			{ text: 'Tenant API', link: '/docs/interfaces/tenant-api' },
+			{ text: 'Docker adapter', link: '/docs/interfaces/docker-adapter' },
 			{ text: 'VM state updates', link: '/docs/interfaces/vm-state-updates' },
 			{ text: 'Atlas to Metal API', link: '/docs/interfaces/metal-contract' },
 			{ text: 'Security', link: '/docs/interfaces/security' },

@@ -10,3 +10,5 @@ Atlas has four APIs. Each has a rules page and a generated reference.
 | WireGuard gateway API | Central | [WireGuard gateway](../networking/wireguard-gateway.md) | [WireGuard gateway API](/api/wg-gateway/) |
 
 Start with [signing keys and tokens](signing-keys.md) to see how Central and Atlas share public keys while each service keeps its own permissions. The [security model](security.md) lists other control boundaries. [VM state updates](vm-state-updates.md) explains messages Atlas sends to Central. [API clients](api-clients.md) explains generated Python clients.
+
+The [Docker adapter](docker-adapter.md) exposes a limited Docker Engine API for VM lifecycle operations through the tenant API.

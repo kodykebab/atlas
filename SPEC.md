@@ -1,6 +1,6 @@
 # Atlas Repository Specification
 
-Atlas is a monorepo for Frappe Cloud V2 VM infrastructure. It holds one Frappe app and six other components in one Git repository.
+Atlas is a monorepo for Frappe Cloud V2 VM infrastructure. It holds one Frappe app and seven other components in one Git repository.
 
 ## Components
 
@@ -8,6 +8,7 @@ Atlas is a monorepo for Frappe Cloud V2 VM infrastructure. It holds one Frappe a
 |---|---|---|
 | [Atlas app](atlas/SPEC.md) | `atlas/` | Frappe app |
 | [Metal](metal/SPEC.md) | `metal/` | Host VM management |
+| [Docker adapter](services/docker-adapter/SPEC.md) | `services/docker-adapter/` | Docker protocol translation to the tenant API |
 | [HTTP proxy](services/http-proxy/SPEC.md) | `services/http-proxy/` | Regional proxy |
 | [IPv6 router](services/ipv6-router/SPEC.md) | `services/ipv6-router/` | Public IPv6 translation |
 | [WG Mesh](services/wg-mesh/SPEC.md) | `services/wg-mesh/` | Private VM network |
@@ -31,6 +32,7 @@ Atlas is a monorepo for Frappe Cloud V2 VM infrastructure. It holds one Frappe a
 |---|---|
 | Atlas | Every pull request |
 | Metal | `metal/` |
+| Docker adapter | `services/docker-adapter/` |
 | WG Mesh | `services/wg-mesh/` |
 | Control cluster | `services/control-cluster/` |
 | WireGuard gateway | `services/wg-gateway/` and `services/control-cluster/` |
